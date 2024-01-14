@@ -48,7 +48,7 @@ const rightSection = () => {
   return (
     <div className={styles.rightContainer}>
       <div className={styles.selfArt}>
-        <p>Malika's Selft Portait</p>
+        <p>Self Portait</p>
         <img src={landingPotrait} alt="Self Potrait" name="Malika"></img>
         <div className="d-flex justify-content-end align-items-center">
           <a
