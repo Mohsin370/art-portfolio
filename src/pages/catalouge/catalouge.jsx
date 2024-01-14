@@ -48,7 +48,7 @@ function Catalouge() {
   const artRenderer = () => {
     return (
       <>
-        <div className="d-flex justify-content-space-around pr-5 flex-wrap">
+        <div className="d-flex flex-wrap">
           {artWorks.map((item, key) => {
             return (
               <div className={styles.artWorkConatiner}>

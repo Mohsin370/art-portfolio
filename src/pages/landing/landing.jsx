@@ -24,16 +24,16 @@ const leftSection = () => {
         <p>Catalouge</p>
         <img src={arrow} alt="arrow" name="arrow"></img>
       </div>
-      <div className={styles.socialLinks}>
+      <div className="d-flex mt-3 justify-content-center">
         <a
           target="_blank"
           href="https://www.instagram.com/malikariaz_/"
           className={styles.contact}
         >
-          <img src={insta} alt="Instagram" name="insta"></img>
+          <img src={insta} alt="Instagram" name="insta" ></img>
         </a>
         <div className={styles.contact} onClick={() => window.location = 'mailto:malikariaz99@gmail.com'}>
-          <img src={email} alt="email" name="email"></img>
+          <img src={email} alt="email"  className="pl-1"  name="email"></img>
         </div>
       </div>
     </div>
@@ -46,7 +46,7 @@ const rightSection = () => {
       <div className={styles.selfArt}>
         <p>Malika's Selft Portait</p>
         <img src={landingPotrait} alt="Self Potrait" name="Malika"></img>
-        <div className={styles.subContainer}>
+        <div className="d-flex justify-content-end align-items-center">
           <a
             target="_blank"
             href="https://www.instagram.com/malikariaz_/"
