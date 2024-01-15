@@ -1,5 +1,4 @@
 import { Row, Col, Container } from "react-bootstrap";
-import styles from "./catalouge.module.css";
 import _UJS0586 from "../../assets/images/_UJS0586.jpg";
 import _UJS0590 from "../../assets/images/_UJS0590.jpg";
 import _UJS0592 from "../../assets/images/_UJS0592.jpg";
@@ -51,7 +50,7 @@ function Catalouge() {
       <>
         {artWorks.map((item, key) => {
           return (
-            <Col sm={3} className="p-4">
+            <Col md={6} lg={4} xl={3} className="p-4">
               <ArtWork key={key} name={item.name} image={item.image}></ArtWork>
             </Col>
           );
