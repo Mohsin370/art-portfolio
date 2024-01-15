@@ -1,3 +1,4 @@
+import { Row, Col, Container } from "react-bootstrap";
 import styles from "./catalouge.module.css";
 import _UJS0586 from "../../assets/images/_UJS0586.jpg";
 import _UJS0590 from "../../assets/images/_UJS0590.jpg";
@@ -48,23 +49,21 @@ function Catalouge() {
   const artRenderer = () => {
     return (
       <>
-        <div className="d-flex flex-wrap">
-          {artWorks.map((item, key) => {
-            return (
-              <div className={styles.artWorkConatiner}>
+        {artWorks.map((item, key) => {
+          return (
+            <Col sm={3} className="p-4">
               <ArtWork key={key} name={item.name} image={item.image}></ArtWork>
-              </div>
-            );
-          })}
-        </div>
+            </Col>
+          );
+        })}
       </>
     );
   };
 
   return (
-    <>
-      <div className={styles.container}>{artRenderer()}</div>
-    </>
+    <Container>
+      <Row>{artRenderer()}</Row>
+    </Container>
   );
 }
 
