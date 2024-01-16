@@ -1,2 +1,2 @@
-Art portfolio app. Display landing page and portflio grid in a minimilistic manner.
-<a target="_blank" href="artbymalika.com">Live Demo</a>
+Art portfolio app. Display landing page and portfolio grid in a minimalistic manner.
+<a target="_blank" href="https://www.artbymalika.com">Live Demo</a>
