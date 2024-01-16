@@ -5,16 +5,15 @@
 }
 
 .leftContainer {
-  width: 50%;
   background-color: #bbad9f;
 }
 .textContainer {
-  margin-left: 10%;
+  margin-right: 6%;
   margin-top: 10%;
-  margin-right: 200px;
+  margin-left: 6%;
 
   h1 {
-    font-size: 80px;
+    font-size: 4rem;
   }
 
   h3 {
@@ -28,14 +27,7 @@
     font-size: 1.4rem;
   }
 }
-.rightContainer {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #dcd2c8;
-  padding: 50px;
-}
+
 
 .selfArt {
   max-width: 800px;
@@ -68,18 +60,6 @@ a:visited {
   color: black;
 }
 
-.catalougeText {
-  margin-top: 30%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  img {
-    padding-left: 10px;
-  }
-  :hover{
-    cursor: pointer;
-  }
-}
 
 p{
   margin-bottom: auto !important;
