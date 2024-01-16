@@ -17,6 +17,7 @@ const leftSection = () => {
         Every stroke tells a story, and every color whispers, You are an artist
         of your destiny."
       </h4>
+      {bottomNav()}
     </div>
   );
 };
@@ -42,7 +43,7 @@ const rightSection = () => {
 
 const bottomNav = () => {
   return (
-    <div className="position-absolute bottom-0 start-50 translate-middle">
+    <div className="p-3">
       <div
         className="d-flex justify-content-center align-items-center "
         type="button"
@@ -73,6 +74,7 @@ function Landing() {
   return (
     <div>
       <Row style={{ minHeight: "100vh", overflow: "hidden" }}>
+
         <Col
           sm={12}
           lg={6}
@@ -80,6 +82,7 @@ function Landing() {
           style={{ backgroundColor: "#bbad9f" }}
         >
           {leftSection()}
+
         </Col>
         <Col
           lg={6}
@@ -90,7 +93,6 @@ function Landing() {
             {rightSection()}
           </div>
         </Col>
-        {bottomNav()}
       </Row>
     </div>
   );
