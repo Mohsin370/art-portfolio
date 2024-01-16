@@ -72,29 +72,20 @@ const bottomNav = () => {
 
 function Landing() {
   return (
-    <div>
-      <Row style={{ minHeight: "100vh", overflow: "hidden" }}>
-
-        <Col
-          sm={12}
-          lg={6}
-          class="mh-100"
-          style={{ backgroundColor: "#bbad9f" }}
-        >
-          {leftSection()}
-
-        </Col>
-        <Col
-          lg={6}
-          className=" mh-100  p-5"
-          style={{ backgroundColor: "#dcd2c8" }}
-        >
-          <div className="h-100 d-flex justify-content-center align-items-center">
-            {rightSection()}
-          </div>
-        </Col>
-      </Row>
-    </div>
+    <Row style={{ minHeight: "100vh", overflow: "hidden" }}>
+      <Col sm={12} lg={6} class="mh-100" style={{ backgroundColor: "#bbad9f" }}>
+        {leftSection()}
+      </Col>
+      <Col
+        lg={6}
+        className="mh-100  p-5"
+        style={{ backgroundColor: "#dcd2c8" }}
+      >
+        <div className="h-100 d-flex justify-content-center align-items-center">
+          {rightSection()}
+        </div>
+      </Col>
+    </Row>
   );
 }
 
