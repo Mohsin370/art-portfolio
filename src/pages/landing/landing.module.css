@@ -16,14 +16,14 @@
     font-size: 4rem;
   }
 
-  h3 {
+  h2 {
     background-color: black;
     color: white;
     width: fit-content;
     padding: 5px 5px 5px 5px;
   }
 
-  h4 {
+  h3 {
     font-size: 1.4rem;
   }
 }
