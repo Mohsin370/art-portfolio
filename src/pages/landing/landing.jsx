@@ -9,8 +9,8 @@ const leftSection = () => {
   return (
     <div className={styles.textContainer}>
       <h1 className="">Malika Riaz</h1>
-      <h3>Visual Artist</h3>
-      <h4>
+      <h2>Visual Artist</h3>
+      <h3>
         "Let your imagination be the canvas, dreams the paint, and courage the
         brush. In the gallery of life, create a masterpiece that reflects the
         vibrant hues of your passion and the bold strokes of your resilience.
