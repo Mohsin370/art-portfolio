@@ -77,7 +77,7 @@ function Landing() {
         <Col
           sm={12}
           lg={6}
-          class="mh-100"
+          className="mh-100"
           style={{ backgroundColor: "#bbad9f" }}
         >
           {leftSection()}
