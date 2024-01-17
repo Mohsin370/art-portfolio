@@ -4,6 +4,18 @@ import insta from "../../assets/icons/insta.png";
 import arrow from "../../assets/icons/arrow.png";
 import email from "../../assets/icons/email.png";
 import { Row, Col } from "react-bootstrap";
+import HomeCarousel from '../../components/carousel/carousel';
+import _UJS0586 from "../../assets/images/_UJS0586.jpg";
+import _UJS0592 from "../../assets/images/_UJS0592.jpg";
+import _UJS0934 from "../../assets/images/_UJS0934.jpg";
+
+
+
+const caraselItems = [
+  { name: "But I am still a child", image: _UJS0586 },
+  { name: "My father’s coat", image: _UJS0592 },
+  { name: "I wish you knew", image: _UJS0934 },
+];
 
 const leftSection = () => {
   return (
@@ -17,6 +29,7 @@ const leftSection = () => {
         Every stroke tells a story, and every color whispers, You are an artist
         of your destiny."
       </h3>
+      <HomeCarousel items={caraselItems} ></HomeCarousel>
       {bottomNav()}
     </div>
   );
