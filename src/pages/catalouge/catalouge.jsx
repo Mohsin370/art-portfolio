@@ -50,8 +50,8 @@ function Catalouge() {
       <>
         {artWorks.map((item, key) => {
           return (
-            <Col md={6} lg={4} xl={3} className="p-4">
-              <ArtWork key={key} name={item.name} image={item.image}></ArtWork>
+            <Col key={key} md={6} lg={4} xl={3} className="p-4">
+              <ArtWork  name={item.name} image={item.image}></ArtWork>
             </Col>
           );
         })}
