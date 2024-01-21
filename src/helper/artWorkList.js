@@ -36,7 +36,7 @@ const artWorks = [
     { name: "I think I remember", image: _UJS0618, size:"16.7 x 13 in", medium:"Gouache on wasli", year:"2023" },
     { name: "I wish you knew", image: _UJS0934, size:"16.5 x 13.6 in", medium:"Gouache on wasli", year:"2023" },
     { name: "There is a fan in my sister’s room", image: _UJS0936, size:"8.2 x 7.1 in", medium:"Gouache on wasli", year:"2023" },
-    { name: "Flower pots in my backyard", image: _UJS0939, size:": 6.5 x 27.3 in", medium:"Stippling on handmade paper", year:"2023" },
+    { name: "Flower pots in my backyard", image: _UJS0939, size:"6.5 x 27.3 in", medium:"Stippling on handmade paper", year:"2023" },
     { name: "Think, Think, Imagine", image: _UJS0950, size:"14.5 x 12 x 5.5 in. (with box)", medium:"Gouache and watercolours on wasli", year:"2023" },
     { name: "Self Portrait", image: _UJS0954, size:"5.6 X 3.7 in", medium:"watercolours on wasli", year:"2023" },
     { name: "My bedroom’s window", image: _UJS0956, size:"16.5 x 12 x 5.5 in. (with box)", medium:"Gouache on wasli", year:"2023" },
