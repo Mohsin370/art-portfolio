@@ -8,6 +8,7 @@ import HomeCarousel from '../../components/carousel/carousel';
 import _UJS0586 from "../../assets/images/_UJS0586.jpg";
 import _UJS0592 from "../../assets/images/_UJS0592.jpg";
 import _UJS0934 from "../../assets/images/_UJS0934.jpg";
+import { Link } from "react-router-dom";
 
 
 
@@ -57,13 +58,14 @@ const rightSection = () => {
 const bottomNav = () => {
   return (
     <div className="p-3">
-      <div
-        className="d-flex justify-content-center align-items-center "
+      <Link
+        className="d-flex justify-content-center align-items-center text-decoration-none "
         type="button"
+        to="/catalouge"
       >
-        <p>Catalouge</p>
+        <p className="p-2">View Catalouge</p>
         <img src={arrow} alt="arrow" name="arrow"></img>
-      </div>
+      </Link>
       <div className="d-flex mt-3 justify-content-center">
         <a
           target="_blank"

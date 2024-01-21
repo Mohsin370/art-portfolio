@@ -29,7 +29,7 @@ function Catalouge() {
   };
 
   return (
-    <Container>
+    <Container className="pt-5">
       <Row>{artRenderer()}</Row>
     </Container>
   );
