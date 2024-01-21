@@ -1,0 +1,9 @@
+.header{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%, 0%);
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+  background-color: #b6a798;
+}
