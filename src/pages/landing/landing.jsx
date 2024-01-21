@@ -59,7 +59,7 @@ const bottomNav = () => {
   return (
     <div className="p-3">
       <Link
-        className="d-flex justify-content-center align-items-center text-decoration-none "
+        className="d-flex justify-content-center align-items-center text-decoration-none color-black link-dark"
         type="button"
         to="/catalouge"
       >
