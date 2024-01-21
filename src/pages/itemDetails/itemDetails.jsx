@@ -10,7 +10,7 @@ export default function itemDetails() {
 
   return (
     <Container>
-        <Row className="pt-5">
+        <Row className="pt-5 pb-5">
             <Col lg={8} xl={12} className='pt-5'>
                 <img className='w-100 object-fit-contain' style={{maxHeight:'900px'}} src={itemData[0].image} />
             </Col>
