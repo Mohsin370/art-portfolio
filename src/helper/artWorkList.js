@@ -18,7 +18,6 @@ import _UJS0954 from "../assets/images/_UJS0954.jpg";
 import _UJS0956 from "../assets/images/_UJS0956.jpg";
 import _UJS0961 from "../assets/images/_UJS0961.jpg";
 
-
 const artWorks = [
     { name: "But I am still a child", image: _UJS0586, size:"13.5 X 13 in", medium:"Gouache on wasli", year:"2023" },
     { name: "Maybe I can fix it", image: _UJS0590, size:"13 X 13 in", medium:"Gouache on wasli", year:"2023" },
@@ -30,7 +29,6 @@ const artWorks = [
     { name: "Dining Room - I", image: _UJS0604, size:"8.7 x 11.1 in", medium:"Wire embedded in handmade paper", year:"2022" },
     { name: "Room Table", image: _UJS0606, size:"5.6 X 3.7 in", medium:"watercolours on wasli", year:"2023" },
     { name: "Think, Think, Imagine", image: _UJS0608, size:"14.5 x 12 x 5.5 in. (with box)", medium:"Gouache and watercolours on wasli", year:"2023" },
-    { name: "Lounge on wires", image: _UJS0609, size:"5.6 X 3.7 in", medium:"watercolours on wasli", year:"2023" },
     { name: "Dining Room II", image: _UJS0611, size:"5.6 X 3.7 in", medium:"watercolours on wasli", year:"2023" },
     { name: "I think I remember", image: _UJS0618, size:"16.7 x 13 in", medium:"Gouache on wasli", year:"2023" },
     { name: "I wish you knew", image: _UJS0934, size:"16.5 x 13.6 in", medium:"Gouache on wasli", year:"2023" },
