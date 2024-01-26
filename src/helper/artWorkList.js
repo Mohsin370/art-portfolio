@@ -8,7 +8,6 @@ import _UJS0602 from "../assets/images/_UJS0602.jpg";
 import _UJS0604 from "../assets/images/_UJS0604.jpg";
 import _UJS0606 from "../assets/images/_UJS0606.jpg";
 import _UJS0608 from "../assets/images/_UJS0608.jpg";
-import _UJS0609 from "../assets/images/_UJS0609.jpg";
 import _UJS0611 from "../assets/images/_UJS0611.jpg";
 import _UJS0618 from "../assets/images/_UJS0618.jpg";
 import _UJS0934 from "../assets/images/_UJS0934.jpg";
