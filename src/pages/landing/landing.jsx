@@ -29,7 +29,7 @@ const leftSection = () => {
         memory, time, and belonging in her work. She has incorporated her
         knowledge of traditional miniature in different mediums, including
         wire-embedded paper, stippling, hand embroidery, and fabric layering, to
-        create visuals from within her home. . In her works there is an evident
+        create visuals from within her home. In her works there is an evident
         presence of the South Asian visual language which is blended with her
         approach towards her exposure to western art.
       </h3>
