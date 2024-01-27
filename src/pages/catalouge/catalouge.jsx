@@ -1,5 +1,5 @@
-import { Row, Col, Container } from "react-bootstrap";
 
+import {Container } from "react-bootstrap";
 import ArtWork from "../../components/artWork/artWork";
 import { useNavigate } from "react-router-dom";
 import artWorks from "../../helper/artWorkList";
@@ -12,16 +12,9 @@ function Catalouge() {
       <>
         {artWorks.map((item, key) => {
           return (
-            <Col
-              key={key}
-              md={6}
-              lg={4}
-              xl={3}
-              className="p-4 mt-5"
-              onClick={() => navigate(`/item/${key}`)}
-            >
+            <div key={key} onClick={() => navigate(`/item/${key}`)}>
               <ArtWork name={item.name} image={item.image}></ArtWork>
-            </Col>
+            </div>
           );
         })}
       </>
@@ -29,8 +22,10 @@ function Catalouge() {
   };
 
   return (
-    <Container className="pt-5">
-      <Row>{artRenderer()}</Row>
+    <Container className="pb-5  mt-5 pt-5">
+      <div className=" d-flex flex-wrap gap-3 justify-content-center  p-2 ">
+        {artRenderer()}
+      </div>
     </Container>
   );
 }
