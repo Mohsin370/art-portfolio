@@ -6,7 +6,6 @@ function Header() {
   let navigate = useNavigate();
 
   return (
-    // <div className="header">
     <Row>
       <Col style={{ backgroundColor: "grey" }}>
         <div className={styles.header}>
@@ -14,7 +13,6 @@ function Header() {
         </div>
       </Col>
     </Row>
-    // </div>
   );
 }
 
