@@ -4,13 +4,11 @@ import insta from "../../assets/icons/insta.png";
 import arrow from "../../assets/icons/arrow.png";
 import email from "../../assets/icons/email.png";
 import { Row, Col } from "react-bootstrap";
-import HomeCarousel from '../../components/carousel/carousel';
+import HomeCarousel from "../../components/carousel/carousel";
 import _UJS0586 from "../../assets/images/_UJS0586.jpg";
 import _UJS0592 from "../../assets/images/_UJS0592.jpg";
 import _UJS0934 from "../../assets/images/_UJS0934.jpg";
 import { Link } from "react-router-dom";
-
-
 
 const caraselItems = [
   { name: "But I am still a child", image: _UJS0586 },
@@ -24,13 +22,18 @@ const leftSection = () => {
       <h1 className="">Malika Riaz</h1>
       <h2>Visual Artist</h2>
       <h3>
-        "Let your imagination be the canvas, dreams the paint, and courage the
-        brush. In the gallery of life, create a masterpiece that reflects the
-        vibrant hues of your passion and the bold strokes of your resilience.
-        Every stroke tells a story, and every color whispers, You are an artist
-        of your destiny."
+        Malika Riaz is a graduate of the National College of Arts, Lahore
+        (2024). She earned her bachelor’s degree in fine art, majoring in
+        miniature painting. Her practice revolves around contemporizing the
+        traditional miniature technique while incorporating the concept of
+        memory, time, and belonging in her work. She has incorporated her
+        knowledge of traditional miniature in different mediums, including
+        wire-embedded paper, stippling, hand embroidery, and fabric layering, to
+        create visuals from within her home. . In her works there is an evident
+        presence of the South Asian visual language which is blended with her
+        approach towards her exposure to western art.
       </h3>
-      <HomeCarousel items={caraselItems} ></HomeCarousel>
+      <HomeCarousel items={caraselItems}></HomeCarousel>
       {bottomNav()}
     </div>
   );
