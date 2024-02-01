@@ -25,13 +25,13 @@ const leftSection = () => {
         Malika Riaz is a graduate of the National College of Arts, Lahore
         (2024). She earned her bachelor’s degree in fine art, majoring in
         miniature painting. Her practice revolves around contemporizing the
-        traditional miniature technique while incorporating the concept of
+        traditional miniature technique while incorporating the concepts of
         memory, time, and belonging in her work. She has incorporated her
         knowledge of traditional miniature in different mediums, including
         wire-embedded paper, stippling, hand embroidery, and fabric layering, to
-        create visuals from within her home. In her works there is an evident
+        create visuals from within her home. In her works, there is an evident
         presence of the South Asian visual language which is blended with her
-        approach towards her exposure to western art.
+        approach towards her exposure to Western art.
       </h3>
       <HomeCarousel items={caraselItems}></HomeCarousel>
       {bottomNav()}
