@@ -3,3 +3,9 @@
     width: 400px;
     object-fit: cover;
 }
+.imgContainer{
+    transition: 0.3s ease;
+}
+.imgContainer:hover{
+    transform:scale(1.03)
+}
