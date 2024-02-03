@@ -2,7 +2,7 @@ import Carousel from "react-bootstrap/Carousel";
 function HomeCarousel(props) {
 
   return (
-    <Carousel className="d-none d-md-block m-auto" style={{width:"500px", paddingTop:"5%"}} fade>
+    <Carousel className="d-none d-md-block m-auto" style={{maxWidth:"500px", paddingTop:"5%"}} fade>
       {props.items.map((el, key) => {
         return (
           <Carousel.Item key={key} >
