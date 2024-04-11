@@ -18,10 +18,10 @@ export default function itemDetails() {
       </h3>
       <Container>
         <Row className="pb-5">
-          <Col lg={8} xl={12} className="">
+          <Col xl={12} className="">
             <img
               className="w-100 object-fit-contain"
-              style={{ maxHeight: "75vh" }}
+              style={{ maxHeight: "65vh" }}
               src={itemData[0].image}
             />
           </Col>
