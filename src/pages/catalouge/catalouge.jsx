@@ -29,7 +29,7 @@ function Catalouge() {
           Catalouge
         </h3>
       </div>
-      <div className=" d-flex flex-wrap gap-3 justify-content-center  p-2 ">
+      <div className=" d-flex flex-wrap gap-3 p-2 ">
         {artRenderer()}
       </div>
     </Container>
