@@ -21,7 +21,7 @@ const leftSection = () => {
     <div className={styles.textContainer}>
       <h2 className="">Malika Riaz</h2>
       <h3>Visual Artist</h3>
-      <p>
+      <h5>
         Malika Riaz is a graduate of the National College of Arts, Lahore
         (2024). She earned her bachelor’s degree in fine art, majoring in
         miniature painting. Her practice revolves around contemporizing the
@@ -32,7 +32,7 @@ const leftSection = () => {
         create visuals from within her home. In her works, there is an evident
         presence of the South Asian visual language which is blended with her
         approach towards her exposure to Western art.
-      </p>
+      </h5>
       <HomeCarousel items={caraselItems}></HomeCarousel>
       {bottomNav()}
     </div>
