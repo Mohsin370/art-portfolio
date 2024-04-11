@@ -12,11 +12,9 @@
   margin-top: 5rem;
   margin-left: 6%;
 
-  h1 {
-    font-size: 4rem;
-  }
 
-  h2 {
+
+  h3 {
     background-color: black;
     color: white;
     width: fit-content;
@@ -24,9 +22,7 @@
     font-style: italic;
   }
 
-  h3 {
-    font-size: 1.4rem;
-  }
+
 }
 
 
