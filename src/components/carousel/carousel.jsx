@@ -8,7 +8,7 @@ function HomeCarousel(props) {
           <Carousel.Item key={key} >
             <img style={{height:"500px"}} className="w-100" src={el.image} alt="item" name={el.name}></img>
             <Carousel.Caption className="d-none d-lg-block">
-              <h3>{el.name}</h3>
+              <h4>{el.name}</h4>
             </Carousel.Caption>
           </Carousel.Item>
         );
