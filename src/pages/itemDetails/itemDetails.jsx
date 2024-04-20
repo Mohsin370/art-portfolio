@@ -11,15 +11,15 @@ const itemDetails = () => {
   let navigate = useNavigate();
 
   return (
-    <div className="pt-5 mt-5">
+    <div className="pt-3 mt-5">
       <Container>
         <h3 className="pt-3" role="button" onClick={() => navigate(`/catalouge`)}>
           <img className="pb-1" src={arrowLeft} />
           Art Details
         </h3>
-        <Row className="pb-5">
-          <Col xl={12} className="">
-            <img className="w-100 object-fit-contain" style={{ maxHeight: "65vh" }} src={itemData[0].image} />
+        <Row className="w-75 m-auto">
+          <Col xl={12} className=" w-60">
+            <img className="w-100 object-fit-contain"  src={itemData[0].image} />
           </Col>
           <Col className="pt-3 text-center">
             <h3>{itemData[0].name}</h3>
