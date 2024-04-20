@@ -12,7 +12,7 @@ function Catalouge() {
       <>
         {artWorks.map((item, key) => {
           return (
-            <div key={key} onClick={() => navigate(`/item/${key}`)}>
+            <div className="m-auto" key={key} onClick={() => navigate(`/item/${key}`)}>
               <ArtWork name={item.name} image={item.image}></ArtWork>
             </div>
           );
@@ -29,7 +29,7 @@ function Catalouge() {
           Catalouge
         </h3>
       </div>
-      <div className=" d-flex flex-wrap gap-3 p-2 ">
+      <div className="d-flex flex-wrap gap-3 p-2 w-100">
         {artRenderer()}
       </div>
     </Container>
