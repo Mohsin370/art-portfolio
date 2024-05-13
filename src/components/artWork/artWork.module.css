@@ -2,9 +2,13 @@
     height: 400px;
     width: 400px;
     object-fit: cover;
+    margin-bottom: 3px;
 }
 .imgContainer{
     transition: 0.3s ease;
+    box-shadow: 5px 5px 5px 5px gray;
+    padding: 8px;
+    border-radius: 2px;
 }
 .imgContainer:hover{
     transform:scale(1.03)
