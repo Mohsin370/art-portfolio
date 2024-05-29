@@ -22,7 +22,7 @@ function Catalouge() {
   };
 
   return (
-    <Container className="pb-5 mt-5 pt-5">
+    <Container className="pb-5 mt-5 pt-5 px-0">
       <div>
         <h3 className="p-3" role="button" onClick={() => navigate(`/`)}>
           <img className="pb-1" src={arrowLeft} />
