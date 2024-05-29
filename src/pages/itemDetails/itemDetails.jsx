@@ -37,7 +37,6 @@ const ItemDetails = () => {
               <p>{itemData[0].size}</p>
               <p>{itemData[0].year}</p>
             </div>
-            {/* <img className="w-100 object-fit-contain" src={itemData[0].image} /> */}
           </Col>
         </Row>
       </Container>
